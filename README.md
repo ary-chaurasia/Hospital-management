@@ -4,8 +4,6 @@ Welcome to the Hospital Management System, a comprehensive solution for managing
 
 **Authors**
 
-Training project (Batch-1)
-
 Anurag Kushwaha
 
 Anurag Trivedi
@@ -82,15 +80,15 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 4. Start the server:
 
-API Endpoints
+**API Endpoints**
 Detailed documentation of API endpoints is available in respective router files (userRouter.js, appointmentRouter.js, messageRouter.js). Ensure proper JWT authentication headers are set for protected routes.
 
-Authentication
+**Authentication**
 Supports authentication for Admin, Doctor, and Patient roles using JWT. Middleware functions (isAdminAuthenticated, isPatientAuthenticated) enforce authentication for protected routes.
 
-Error Handling
+**Error Handling**
 Error handling middleware (errorMiddleware.js) manages validation errors, JWT errors, MongoDB errors, etc., returning structured JSON error messages.
 
 
-License
+**License**
 This project is licensed under the MIT License - see the LICENSE file for details.
