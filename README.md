@@ -69,17 +69,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 2. Install dependencies:
 
 3. Set up environment variables in a `.env` file:
-```plaintext
-PORT=3000
-MONGO_URL=mongodb://localhost:27017/hospital_management_system
-JWT_SECRET_KEY=your_secret_key
-JWT_EXPIRES=30d
-COOKIE_EXPIRE=30
-CLOUDINARY_CLOUD_NAME=your_cloud_name
-CLOUDINARY_API_KEY=your_api_key
-CLOUDINARY_API_SECRET=your_api_secret
-FRONTEND_URL=http://localhost:3001  # Replace with your frontend URL
-DASHBOARD_URL=http://localhost:3002 # Replace with your dashboard URL
 
 4. Start the server:
 
@@ -93,7 +82,7 @@ Error Handling
 Error handling middleware (errorMiddleware.js) manages validation errors, JWT errors, MongoDB errors, etc., returning structured JSON error messages.
 
 Credits-
-Contributions are welcome. Fork the repository, make your changes, and submit a pull request.
+Aryan Chaurasia
 
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
