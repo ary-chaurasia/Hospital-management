@@ -81,7 +81,13 @@ Supports authentication for Admin, Doctor, and Patient roles using JWT. Middlewa
 Error Handling
 Error handling middleware (errorMiddleware.js) manages validation errors, JWT errors, MongoDB errors, etc., returning structured JSON error messages.
 
-Credits-
+Authors
+Training project (Batch-1)
+
+Anurag Kushwaha
+
+Anurag Trivedi
+
 Aryan Chaurasia
 
 License
