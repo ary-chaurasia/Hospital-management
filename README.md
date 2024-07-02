@@ -2,6 +2,16 @@
 
 Welcome to the Hospital Management System, a comprehensive solution for managing hospital operations including patient management, appointment scheduling, and administrative controls.
 
+**Authors**
+
+Training project (Batch-1)
+
+Anurag Kushwaha
+
+Anurag Trivedi
+
+Aryan Chaurasia
+
 ## Frontend
 
 ### Features
@@ -81,15 +91,6 @@ Supports authentication for Admin, Doctor, and Patient roles using JWT. Middlewa
 Error Handling
 Error handling middleware (errorMiddleware.js) manages validation errors, JWT errors, MongoDB errors, etc., returning structured JSON error messages.
 
-**Authors**
-
-Training project (Batch-1)
-
-Anurag Kushwaha
-
-Anurag Trivedi
-
-Aryan Chaurasia
 
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
