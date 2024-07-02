@@ -81,14 +81,18 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 4. Start the server:
 
 **API Endpoints**
+
 Detailed documentation of API endpoints is available in respective router files (userRouter.js, appointmentRouter.js, messageRouter.js). Ensure proper JWT authentication headers are set for protected routes.
 
 **Authentication**
+
 Supports authentication for Admin, Doctor, and Patient roles using JWT. Middleware functions (isAdminAuthenticated, isPatientAuthenticated) enforce authentication for protected routes.
 
 **Error Handling**
+
 Error handling middleware (errorMiddleware.js) manages validation errors, JWT errors, MongoDB errors, etc., returning structured JSON error messages.
 
 
 **License**
+
 This project is licensed under the MIT License - see the LICENSE file for details.
