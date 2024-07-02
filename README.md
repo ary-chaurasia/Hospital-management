@@ -82,6 +82,7 @@ Error Handling
 Error handling middleware (errorMiddleware.js) manages validation errors, JWT errors, MongoDB errors, etc., returning structured JSON error messages.
 
 **Authors**
+
 Training project (Batch-1)
 
 Anurag Kushwaha
